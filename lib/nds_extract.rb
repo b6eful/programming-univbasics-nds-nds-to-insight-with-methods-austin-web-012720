@@ -3,7 +3,7 @@ require 'directors_database'
 
 def gross_for_director(director_data)
   movie_num = 0
-  length = = director
+  length = = director_data
 end
 
 def directors_totals(nds)
