@@ -14,7 +14,6 @@ def gross_for_director(director_data)
 end
 
 def directors_totals(nds)
-  
   result = {}
   nil
 end
