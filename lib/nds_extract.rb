@@ -14,6 +14,14 @@ def gross_for_director(director_data)
 end
 
 def directors_totals(nds)
-  result = {}
-  nil
+    director_grosses = {}
+    row_counter = 0
+      while row_counter < nds.length do
+       directors_name = nds[row_counter][:name]
+       director_data = nds[row_counter]
+       director_total = gross_for_director(director_data)
+       director_grosses[directors_name] = director_total
+       row_counter += 1
+      end
+  director_grosses
 end
